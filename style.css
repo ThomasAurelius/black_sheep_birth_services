@@ -1,0 +1,266 @@
+* {
+   box-sizing: border-box;
+   
+}
+
+body {
+   padding: 0;
+   margin: 0;
+}
+
+h2 {
+   font-size: 2.5rem;;
+}
+
+.hidden {
+   display: none;
+}
+
+.main {
+   margin-top: 30px;
+}
+
+.navbar  {
+   overflow: hidden;
+   background-color: rgb(156, 185, 182);
+   padding: 1px;
+   margin: 0;
+   width: 100vw;
+   position: fixed;
+   top: 0;
+}
+
+.navbar ul {
+   display: flex;
+   list-style-type: none;
+   gap: 1rem;   
+}
+
+.navbar li a{
+   color: rgb(39, 39, 39);
+   text-decoration: none;
+}
+
+.hero {   
+   
+   width: 100vw;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.hero p {
+   max-width: 600px;
+   width: 60vw;
+   text-align: center;
+}
+
+.section-1 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-inline: auto;
+   max-width: 1200px;
+}
+
+.section-1-text-container {
+   max-width: 45vw;
+   padding: 1rem;
+   font-size: 1.25rem;
+   line-height: 1.35;
+}
+
+.section-1-img-container img {
+   max-width: 45vw;
+   display: flex;
+   justify-content: end;
+}
+
+.section-2 {
+   
+   margin-inline: auto;
+   max-width: 1200px;
+}
+
+.section-2 h2 {
+   text-align: center;
+}
+
+.section-2-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   max-width: 1200px;
+}
+
+.section-2-left {
+   width: 35vw;
+   padding: 1rem;
+   padding-right: 3rem;
+   font-size: 1.25rem;
+   line-height: 1.55;
+   background-color: #fff6ef;
+}
+
+.section-2-left li{
+   text-decoration-line: underline;
+   margin-bottom: 1rem;
+   cursor: pointer;
+}
+
+.section-2-left li:hover {
+   color: rgba(255, 255, 255, .9);
+   transform: scale(120%);
+}
+
+.section-2-right {
+   width: 65vw;
+   padding: 2rem;
+   font-size: 1.25rem;
+   line-height: 1.35;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.faq {
+   line-height: 1.6em;
+   font-size: 1.35rem;
+}
+
+.faq2 {
+   line-height: 1.6em;
+   
+}
+
+.faq2 ul {
+   margin-bottom: 0;
+}
+
+.faq2 li {
+   line-height: 1.3em;
+   font-size: 1.15rem;
+}
+
+.faq2 small {
+   font-size: 0.8rem;
+   line-height: .5em;
+   padding-top: -15px;
+}
+
+.section-3 {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   margin-inline: auto;
+   max-width: 1200px;
+}
+
+.section-3-left img {
+   max-height: 100vh;
+   height: 700px;
+}
+
+.section-3-right {
+   padding: 2rem;
+   font-size: 1.25rem;
+}
+
+
+.section-4 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   max-width: 1200px;
+   margin-inline: auto;
+}
+
+.section-4-right img {
+   width: 30vw;
+   max-height: 600px;
+}
+
+.section-4-left {
+   width: 70vw;
+   padding-inline: 2rem;
+   padding-block: 1rem;
+}
+
+.rates {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: #fff6ef;
+   max-width: 1200px;
+   margin-inline: auto;
+   padding: 2rem;
+   font-size: 1.5rem;
+}
+
+.section-5 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   max-width: 1200px;
+   margin-inline: auto;
+}
+
+.section-5 img {
+   width: 40vw;
+}
+
+.section-5-right {
+   padding: 3rem;
+}
+
+.section-5-right h3 {
+   line-height: 1.5em;
+}
+
+.section-5-right h1 {
+   font-size: 2.5rem;
+   text-align: center;
+}
+
+.section-6 {
+   background-color: rgb(156, 185, 182);
+   max-width: 1200px;
+   margin-inline: auto;
+   padding: 1rem;
+}
+
+.section-6 h2 {
+   text-align: center;
+}
+
+.section-6-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-inline: auto;
+   max-width: 800px;
+   gap: 1rem;
+}
+
+.contact-main {
+   font-size: 1.5rem;
+   width: 55vw;
+}
+
+.contact-fields {
+   width: 35vw;
+   font-size: 1.3rem;
+}
+
+footer {
+   text-align: center;
+}
+
+footer  a {
+   text-decoration: none;
+}

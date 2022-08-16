@@ -1,3 +1,4 @@
+
 const q1 = document.querySelector('.q1');
 const q2 = document.querySelector('.q2');
 const q3 = document.querySelector('.q3');
@@ -46,3 +47,5 @@ q6.addEventListener('click', () => {
    faq.forEach(faq => faq.classList.add('hidden'))
    faq6.classList.remove('hidden');
 });
+
+

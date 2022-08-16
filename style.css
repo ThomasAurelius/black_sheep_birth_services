@@ -12,37 +12,110 @@ h2 {
    font-size: 2.5rem;;
 }
 
-.hidden {
-   display: none;
+
+
+
+.logo {
+   max-width: 75px;
 }
 
-.main {
+.nav-header {
+   display: flex;
+   align-items: center;
+   width: 100%;
+   background-color: rgb(156, 185, 182);
+   
+}
+
+
+
+.arrow {
+   height: 12px;
+   width: 12px;
+   padding-left: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.overlay {
+   height: 100%;
+   width: 0;
+   position: fixed;
+   z-index: 1;
+   top: 0;
+   left: 0;
+   background-color: rgb(0, 0, 0);
+   background-color: rgba(0, 0, 0, 0.9);
+   overflow-x: hidden;
+   transition: 0.5s;
+}
+
+.overlay-content {
+   position: relative;
+   top: 25%;
+   width: 100%;
+   text-align: center;
    margin-top: 30px;
 }
 
-.navbar  {
-   overflow: hidden;
-   background-color: rgb(156, 185, 182);
-   padding: 1px;
-   margin: 0;
-   width: 100vw;
-   position: fixed;
-   top: 0;
-}
-
-.navbar ul {
-   display: flex;
-   list-style-type: none;
-   gap: 1rem;   
-}
-
-.navbar li a{
-   color: rgb(39, 39, 39);
+.overlay a {
+   padding: 8px;
    text-decoration: none;
+   font-size: 36px;
+   color: #818181;
+   display: block;
+   transition: 0.3s;
 }
+
+.overlay a:hover,
+.overlay a:focus {
+   color: #f1f1f1;
+}
+
+.overlay .closebtn {
+   position: absolute;
+   top: 20px;
+   right: 45px;
+   font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+   .overlay a {
+      font-size: 20px
+   }
+
+   .overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .hero {   
-   
+   padding-top: 60px;
    width: 100vw;
    display: flex;
    flex-direction: column;
@@ -263,4 +336,8 @@ footer {
 
 footer  a {
    text-decoration: none;
+}
+
+.hidden {
+   display: none;
 }

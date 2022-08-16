@@ -10,14 +10,28 @@
 <body>
    <header>
       <nav class="navbar">
-         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#additional">Additional Info</a></li>
-            <li><a href="#serving">Service Area</a></li>
-            <li><a href="contact.html">Contact</a></li>
-         </ul>
+         <div class="nav-header">
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()"><img class="logo" src="./assets/logocopy.png" alt="cartoon sheep logo"> Menu</span>
+           
+         
+         
+         <div id="myNav" class="overlay">
+            <div class="">
+               <a href="index.html" class="navbar-brand">
+                  <img src="./assets/logocopy.png" alt="logo" class="logo"></a>
+
+               
+               <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+               
+            </div>
+            <div class="overlay-content">
+               <a href="#">About</a>
+               <a href="#">Services</a>
+               <a href="#">Clients</a>
+               <a href="#">Contact</a>
+            </div>
+         </div>      
+         
       </nav>
    </header>
    <main class="main">
@@ -230,7 +244,7 @@
          <article class="section-6-container">
             <div class="contact-main">
                <p >Please feel free to contact me with any questions, or to schedule a complimentary consultation. My information can be
-               found below. Please visit my Doula Match profile for updated dates of availability.</p>
+               found below. Please visit my <a href="https://doulamatch.net/profile/1060/sierra-smith">Doula Match</a> profile for updated dates of availability.</p>
             </div>
             <div class="contact-fields">
                <p>
@@ -255,6 +269,7 @@
 
    </footer>
 
-   <script src="script.js"></script>
+   <script src="faq.js"></script>
+   <script src='nav.js'></script>
 </body>
 </html>

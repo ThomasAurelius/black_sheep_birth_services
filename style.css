@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
 * {
    box-sizing: border-box;
    
@@ -6,10 +8,19 @@
 body {
    padding: 0;
    margin: 0;
+   background-color: #fff6ef;
+   color: rgb(60, 71, 71);
+   font-family: 'Raleway', sans-serif;
+   font-weight: 300;
+}
+
+h1,h2,h3,h4,h5,h6 {
+   font-family: 'Raleway', sans-serif;
+   font-weight: 130;
 }
 
 h2 {
-   font-size: 2.5rem;;
+   font-size: 2.5rem;
 }
 
 
@@ -21,31 +32,27 @@ h2 {
 
 .nav-header {
    display: flex;
+   justify-content: space-between;
    align-items: center;
    width: 100%;
    background-color: rgb(156, 185, 182);
+   padding: 0.5rem;
+   position: fixed;
    
 }
 
-
-
-.arrow {
-   height: 12px;
-   width: 12px;
-   padding-left: 1px;
+a {
+   text-decoration: none;
+   color: rgb(60, 71, 71);
 }
 
+.nav-contact-link {
+   font-size: 30px;
+   cursor: pointer;
+   color: rgb(60, 71, 71);
+ 
 
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
@@ -64,7 +71,7 @@ h2 {
 
 .overlay-content {
    position: relative;
-   top: 25%;
+   top: 0%;
    width: 100%;
    text-align: center;
    margin-top: 30px;
@@ -106,21 +113,15 @@ h2 {
 
 
 
-
-
-
-
-
-
-
-
 .hero {   
    padding-top: 60px;
    width: 100vw;
+   height: 100vh;
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   background-color: white;
 }
 
 .hero p {
@@ -148,6 +149,7 @@ h2 {
    max-width: 45vw;
    display: flex;
    justify-content: end;
+   border-radius: 35px;
 }
 
 .section-2 {
@@ -178,13 +180,14 @@ h2 {
 
 .section-2-left li{
    text-decoration-line: underline;
+  
    margin-bottom: 1rem;
    cursor: pointer;
 }
 
 .section-2-left li:hover {
-   color: rgba(255, 255, 255, .9);
-   transform: scale(120%);
+   color: rgb(79, 94, 93);
+   transform: scale(110%);
 }
 
 .section-2-right {
@@ -196,8 +199,32 @@ h2 {
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   background-color: white;
+   border-radius: 35px;
 }
 
+.services-btn-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-block: 4rem;
+}
+
+.services-btn {
+   background-color: rgb(156, 185, 182);;
+   border: 1px solid #818181;;
+   
+   color: #fff6ef;
+   padding: 1rem;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 1.25rem;
+   margin: 6px 2px;
+   cursor: pointer;
+   border-radius: 35px;
+   
+}
 
 .faq {
    line-height: 1.6em;
@@ -261,6 +288,7 @@ h2 {
    width: 70vw;
    padding-inline: 2rem;
    padding-block: 1rem;
+   font-size: 1.2rem;
 }
 
 .rates {
@@ -289,6 +317,8 @@ h2 {
 
 .section-5-right {
    padding: 3rem;
+   background-color: white;
+   border-radius: 35px;
 }
 
 .section-5-right h3 {
@@ -305,6 +335,7 @@ h2 {
    max-width: 1200px;
    margin-inline: auto;
    padding: 1rem;
+   border-radius: 35px;
 }
 
 .section-6 h2 {
@@ -328,7 +359,12 @@ h2 {
 .contact-fields {
    width: 35vw;
    font-size: 1.3rem;
+   background-color: #fff6ef;
+   border-radius: 35px;
+   padding: 10px;
 }
+
+
 
 footer {
    text-align: center;
@@ -340,4 +376,57 @@ footer  a {
 
 .hidden {
    display: none;
+}
+.kind-words-1 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   max-width: 1200px;
+   margin-inline: auto;
+}
+
+.kind-words-top {
+   font-size: 1.1rem;
+   margin-inline: auto;
+   padding-inline: 30px;
+}
+
+.kind-words-top h1 {
+   font-size: 4rem;
+   text-align: center;
+}
+
+.kind-words-top h3 {
+   padding-top: 30px;
+}
+
+.kind-words-top-img {
+   width: 50vw;
+   max-height: 1100px;
+   border-radius: 35px;
+   
+}
+
+.kind-words-bottom-img {
+   width: 50vw;
+   border-radius: 35px;
+   
+}
+
+.kind-words-top hr {
+   margin: 40px;
+}
+.kind-words-2 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   max-width: 1200px;
+   margin-inline: auto;
+}
+
+.kind-words-bottom{
+   font-size: 1.25rem;
+   margin-inline: auto;
+   padding-inline: 60px;
+   line-height: 1.3;
 }

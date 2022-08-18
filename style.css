@@ -17,13 +17,16 @@ body {
 h1,h2,h3,h4,h5,h6 {
    font-family: 'Raleway', sans-serif;
    font-weight: 130;
+   margin: 1rem;
 }
 
 h2 {
    font-size: 2.5rem;
 }
 
-
+section {
+   margin-block: 2.5rem;
+}
 
 
 .logo {
@@ -38,6 +41,7 @@ h2 {
    background-color: rgb(156, 185, 182);
    padding: 0.5rem;
    position: fixed;
+   top: 0;
    
 }
 
@@ -50,9 +54,13 @@ a {
    font-size: 30px;
    cursor: pointer;
    color: rgb(60, 71, 71);
- 
+ }
 
-}
+ .contact-link {
+   display: flex;
+   justify-content: center;
+   align-self: center;
+ }
 
 
 
@@ -226,6 +234,11 @@ a {
    
 }
 
+.underline-link {
+   text-decoration-line: underline;
+   cursor: pointer;
+}
+
 .faq {
    line-height: 1.6em;
    font-size: 1.35rem;
@@ -263,6 +276,7 @@ a {
 .section-3-left img {
    max-height: 100vh;
    height: 700px;
+   border-radius: 35px;
 }
 
 .section-3-right {
@@ -277,11 +291,14 @@ a {
    align-items: center;
    max-width: 1200px;
    margin-inline: auto;
+   background-color: white;
+   border-radius: 35px;
 }
 
 .section-4-right img {
    width: 30vw;
    max-height: 600px;
+   border-radius: 35px;
 }
 
 .section-4-left {
@@ -296,11 +313,12 @@ a {
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   background-color: #fff6ef;
+   background-color: white;
    max-width: 1200px;
    margin-inline: auto;
    padding: 2rem;
    font-size: 1.5rem;
+   border-radius: 35px;
 }
 
 .section-5 {
@@ -309,6 +327,12 @@ a {
    align-items: center;
    max-width: 1200px;
    margin-inline: auto;
+}
+
+.section-5-title {
+   font-size: 4.5rem;
+   text-align: center;
+   margin-bottom: 1rem;
 }
 
 .section-5 img {
@@ -359,18 +383,18 @@ a {
 
 .contact-main {
    font-size: 1.5rem;
-   width: 55vw;
+   width: 45vw;
+   line-height: 1.25em;
 }
 
 .contact-fields {
-   width: 35vw;
+   width: 45vw;
    font-size: 1.3rem;
    background-color: #fff6ef;
    border-radius: 35px;
    padding: 10px;
+   text-align: center;
 }
-
-
 
 footer {
    text-align: center;
@@ -389,12 +413,14 @@ footer  a {
    align-items: center;
    max-width: 1200px;
    margin-inline: auto;
+   padding-top: 60px;
 }
 
 .kind-words-top {
    font-size: 1.1rem;
    margin-inline: auto;
    padding-inline: 30px;
+   padding-top: 30px;
 }
 
 .kind-words-top h1 {
@@ -404,6 +430,8 @@ footer  a {
 
 .kind-words-top h3 {
    padding-top: 30px;
+   font-size: 1.5rem;
+   font-weight: 300;;
 }
 
 .kind-words-top-img {
@@ -417,6 +445,23 @@ footer  a {
    width: 50vw;
    border-radius: 35px;
    
+}
+
+.kind-words-top span {
+   font-size: 1.5rem;
+   
+}
+
+.kind-words-bottom span {
+   font-size: 1.5rem;
+   
+}
+
+.kind-words-bottom h3 {
+   padding-top: 30px;
+   font-size: 1.5rem;
+   font-weight: 300;
+   ;
 }
 
 .kind-words-top hr {
@@ -472,4 +517,38 @@ footer  a {
 
 .resources-right h3 {
    font-weight: 400;
+}
+
+.meet-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   max-width: 1200px;
+   margin-inline: auto;
+   padding: 2rem;
+   background-color: #fff6ef;
+}
+
+.meet {
+   padding: 2rem;
+}
+
+.meet h1 {
+   font-size: 4rem;
+   text-align: center;
+}
+
+.meet h3 {
+   font-size: 2rem;
+}
+
+.meet p {
+   font-size: 1.15rem;
+   padding-bottom:15px;
+   
+}
+
+.meet-img {
+   max-width: 45vw;
+   border-radius: 35px;
 }

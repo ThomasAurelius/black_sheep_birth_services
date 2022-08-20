@@ -271,7 +271,7 @@ a {
    align-items: center;
    margin-inline: auto;
    max-width: 1200px;
-   margin-top:40px;
+   margin-top: 60px;
 }
 
 .section-3-left img {
@@ -403,6 +403,12 @@ footer {
 
 footer  a {
    text-decoration: none;
+}
+
+.footer-socials img {
+   width: 30px;
+   height: 30px;
+   margin-inline: 1rem;
 }
 
 .hidden {
@@ -552,4 +558,90 @@ footer  a {
 .meet-img {
    max-width: 45vw;
    border-radius: 35px;
+}
+
+.childbirth-main {
+   padding-top: 100px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-inline: auto;
+}
+
+
+.small-containers {
+   display: flex;
+   justify-content: center;
+   gap: 2rem;
+   max-width: 1200px;
+}
+
+.small-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   width: 300px;
+   margin-inline: auto;
+   padding: 2rem;
+   background-color: #fff6ef;
+}
+.small-img img {
+   width: 300px;
+   height: 190px;
+}
+
+.small-header {
+   width: 300px;
+   background-color: rgb(156, 185, 182);
+}
+
+.small-header h3 {
+   font-weight: 300;
+}
+.small-container p {
+   width: 300px;
+}
+
+
+.about-birth-boot-camp {
+
+}
+
+.aboutbbc-header {
+   max-width: 1200px;
+   padding-inline: 2rem;
+}
+
+.aboutbbc-container {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   max-width: 1200px;
+   margin-inline: auto;
+   gap: 2rem;
+   background-color: #fff6ef;
+}
+
+.aboutbbc-card {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+   margin-inline: auto;
+   gap: 1rem;
+   background-color: #fff6ef;
+}
+
+.aboutbbc-inner {
+   width: 230px;
+   
+}
+
+.aboutbbc-card h3 {
+   font-weight: 300;
+}
+
+.aboutbbc-inner {
+   font-size: .90rem;
 }

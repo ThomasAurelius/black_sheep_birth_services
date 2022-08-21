@@ -125,6 +125,7 @@ a {
    padding-top: 60px;
    width: 100vw;
    height: 100vh;
+   min-height: 600px;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -644,4 +645,77 @@ footer  a {
 
 .aboutbbc-inner {
    font-size: .90rem;
+}
+
+@media (max-width: 900px) {
+   .section-1 {
+      flex-direction: column;
+   }
+
+   .section-1-text-container {
+      max-width: 90vw;;
+   }
+}
+
+@media (max-width: 700px) {
+   .section-2-left {
+      padding-right: 10px;
+   }
+   .section-2-left ul {
+      padding: 10px;
+   }
+   .section-2-left li {
+      list-style-type: none;
+   }
+
+   .section-2-right {
+      width: 100%;
+   }
+}
+
+@media (max-width: 600px) {
+   .section-2-container {     
+      flex-direction: column;
+   }
+
+   .section-2-left {
+      width: 100%;
+   }
+
+   .section-2-left .q {
+      width: 90vw;
+   }
+
+   .section-6-container {
+      flex-direction: column;
+   }
+
+   .contact-main {
+      width: 90vw;
+   }
+
+   .contact-fields {
+      width: 90vw;
+   }
+
+   .contact-email {
+      word-break: break-all;
+   }
+
+}
+
+@media (max-width: 500px) {
+   .hero img {
+      width: 100%;
+      
+   }
+
+   .hero p {
+      margin-bottom: 3rem;
+   }
+   
+   .section-2-left li {
+       margin-bottom: 8px;
+   }
+
 }

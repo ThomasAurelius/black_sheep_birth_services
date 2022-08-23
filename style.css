@@ -695,6 +695,29 @@ footer  a {
    .meet-container {
          flex-direction: column;
       }
+   .resources {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+   }
+   .resources-right {
+      width: 90%;
+   }
+   .kind-words-1 {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .kind-words-2 {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+   .kind-words-bottom {
+      padding: 30px;
+   }
 }
 
 @media (max-width: 700px) {

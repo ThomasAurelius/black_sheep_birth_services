@@ -665,6 +665,12 @@ footer  a {
    }
 }
 
+@media (max-width: 800px) {
+   .meet-container {
+         flex-direction: column;
+      }
+}
+
 @media (max-width: 700px) {
    .section-2-left {
       padding-right: 10px;
@@ -679,6 +685,8 @@ footer  a {
    .section-2-right {
       width: 100%;
    }
+
+   
 }
 
 @media (max-width: 600px) {
@@ -756,4 +764,11 @@ footer  a {
        margin-bottom: 8px;
    }
 
+}
+
+@media (max-width: 400px) {
+   .meet {
+      width: 100%;
+      padding: .5rem;
+   }
 }

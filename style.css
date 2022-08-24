@@ -62,7 +62,13 @@ a {
    align-self: center;
  }
 
+ .services-menu {
+   background-color: antiquewhite;
+ }
 
+ .services-title {
+   font-weight: 500;
+ }
 
 .overlay {
    height: 100%;

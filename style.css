@@ -147,6 +147,10 @@ a {
    max-width: 1200px;
 }
 
+.section-1-name {
+   font-size: 4rem;
+}
+
 .section-1-text-container {
    max-width: 45vw;
    padding: 1rem;
@@ -216,6 +220,7 @@ a {
    display: flex;
    justify-content: center;
    align-items: center;
+   gap: 3rem;
    margin-block: 4rem;
 }
 
@@ -739,6 +744,11 @@ footer  a {
 }
 
 @media (max-width: 600px) {
+   .services-btn-container{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
    .section-2-container {     
       flex-direction: column;
    }

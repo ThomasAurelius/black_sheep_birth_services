@@ -66,6 +66,13 @@ a {
    background-color: antiquewhite;
  }
 
+ .childbirth-menu {
+   background-color: rgb(156, 185, 182);
+   
+ }
+
+ 
+
  .services-title {
    font-weight: 500;
  }
@@ -124,7 +131,13 @@ a {
    }
 }
 
+.services-menu a:hover {
+   color: rgb(36, 36, 36);
+}
 
+.childbirth-menu a {
+   color: rgb(36, 36, 36);
+}
 
 
 .hero {   

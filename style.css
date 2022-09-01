@@ -539,7 +539,7 @@ footer  a {
 }
 
 .resources-right {
-   margin-top:40px;
+   
    width: 65vw;
    font-size: 1.25rem;
    background-color: #fff6ef;
@@ -553,6 +553,33 @@ footer  a {
 
 .resources-right h3 {
    font-weight: 400;
+}
+
+.resources-2 {
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+}
+
+.resources-2 a {
+   font-weight: 500;
+}
+
+.resources-article {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.resources-article img {
+   max-height: 300px;
+}
+
+.resources-medical-professionals,
+.resources-postpartum,
+.resources-babygear {
+   background-color: rgb(156, 185, 182);
 }
 
 .meet-container {

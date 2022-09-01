@@ -537,6 +537,10 @@ footer  a {
    
 }
 
+.resources-left img {
+   border-radius: 35px;;
+}
+
 .resources-right {
    
    width: 65vw;
@@ -556,8 +560,13 @@ footer  a {
 
 .resources-2 {
    display: flex;
+   justify-content: center;
+   align-items: center;
    flex-direction: column;
    gap: 2rem;
+   max-width: 1200px;
+   margin-inline: auto;
+   
 }
 
 .resources-2 a {
@@ -568,11 +577,13 @@ footer  a {
    display: flex;
    justify-content: center;
    align-items: center;
+   border-radius: 35px;
    
 }
 
 .resources-article img {
    max-height: 300px;
+   border-radius: 35px;
 }
 
 .resources-medical-professionals,

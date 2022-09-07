@@ -9,7 +9,7 @@ body {
    padding: 0;
    margin: 0;
    background-color: #fff6ef;
-   color: rgb(60, 71, 71);
+   color: #424143;
    font-family: 'Raleway', sans-serif;
    font-weight: 300;
 }
@@ -38,7 +38,7 @@ section {
    justify-content: space-between;
    align-items: center;
    width: 100%;
-   background-color: rgb(156, 185, 182);
+   background-color: #c2dcd9;
    padding: 0.5rem;
    position: fixed;
    top: 0;
@@ -46,13 +46,13 @@ section {
 }
 
 a {
-   color: rgb(60, 71, 71);
+   color: #424143;
 }
 
 .nav-contact-link {
    font-size: 30px;
    cursor: pointer;
-   color: rgb(60, 71, 71);
+   color: #424143;
  }
 
  .contact-link {
@@ -62,11 +62,11 @@ a {
  }
 
  .services-menu {
-   background-color: antiquewhite;
+   background-color: #fff6ef;
  }
 
  .childbirth-menu {
-   background-color: rgb(156, 185, 182);
+   background-color: #c2dcd9;
    
  }
 
@@ -108,7 +108,7 @@ a {
 
 .overlay a:hover,
 .overlay a:focus {
-   color: #f1f1f1;
+   color: #fff6ef;
 }
 
 .overlay .closebtn {
@@ -131,11 +131,11 @@ a {
 }
 
 .services-menu a:hover {
-   color: rgb(36, 36, 36);
+   color: #424143;
 }
 
 .childbirth-menu a {
-   color: rgb(36, 36, 36);
+   color: #424143;
 }
 
 
@@ -217,7 +217,7 @@ a {
 }
 
 .section-2-left li:hover {
-   color: rgb(79, 94, 93);
+   color: #424143;
    transform: scale(110%);
 }
 
@@ -243,8 +243,8 @@ a {
 }
 
 .services-btn {
-   background-color: rgb(156, 185, 182);;
-   border: 1px solid #818181;;
+   background-color: #c2dcd9;
+   border: 1px solid #424143;
    
    color: #fff6ef;
    padding: 1rem;
@@ -384,7 +384,7 @@ a {
 }
 
 .section-6 {
-   background-color: rgb(156, 185, 182);
+   background-color: #c2dcd9;
    max-width: 1200px;
    margin-inline: auto;
    padding: 1rem;
@@ -589,7 +589,7 @@ footer  a {
 .resources-medical-professionals,
 .resources-postpartum,
 .resources-babygear {
-   background-color: rgb(156, 185, 182);
+   background-color: #c2dcd9;
 }
 
 .meet-container {
@@ -674,7 +674,7 @@ footer  a {
 
 .small-header {
    width: 300px;
-   background-color: rgb(156, 185, 182);
+   background-color: #c2dcd9;
 }
 
 .small-header h3 {
@@ -686,7 +686,7 @@ footer  a {
 
 
 .about-birth-boot-camp {
-
+  background-color: white;
 }
 
 .aboutbbc-header {
@@ -700,7 +700,7 @@ footer  a {
    max-width: 1200px;
    margin-inline: auto;
    gap: 2rem;
-   background-color: #fff6ef;
+   
 }
 
 .aboutbbc-card {
@@ -710,7 +710,7 @@ footer  a {
    
    margin-inline: auto;
    gap: 1rem;
-   background-color: #fff6ef;
+   
 }
 
 .aboutbbc-inner {
@@ -725,6 +725,26 @@ footer  a {
 .aboutbbc-inner {
    font-size: .90rem;
 }
+
+.childbirth-classes {
+   width: 80vw;
+   max-width: 1200px;
+   
+}
+
+.childbirth-classes h3 {
+   font-weight: 500;
+}
+
+.childbirth-classes h2 {
+   font-weight: 500;
+}
+
+.childbirth-classes a {
+   font-weight: 300;
+   text-decoration: underline;
+}
+
 
 @media (max-width:1000px) {
    .small-containers {

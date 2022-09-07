@@ -437,6 +437,7 @@ footer  a {
    width: 30px;
    height: 30px;
    margin-inline: 1rem;
+   margin-bottom: 1rem;
 }
 
 .hidden {
@@ -743,6 +744,13 @@ footer  a {
 .childbirth-classes a {
    font-weight: 300;
    text-decoration: underline;
+}
+.childbirth-classes-text {
+   line-height: 1.5em;
+}
+
+.childbirth-classes li {
+   margin-block: .5rem;
 }
 
 

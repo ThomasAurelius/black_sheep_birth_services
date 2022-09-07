@@ -736,6 +736,15 @@ a {
    text-align: center;
 }
 
+.btn-register {
+   background-color: #c2dcd9;
+   border-radius: 35px;
+   padding: 10px;
+   font-size: 1.3rem;
+   text-align: center;
+   margin-block: 1rem;
+}
+
 footer {
    text-align: center;
 }

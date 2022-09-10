@@ -778,7 +778,7 @@ footer a {
    display: flex;
    justify-content: center;
    align-items: center;
-   gap: 2rem;
+   gap: 3rem;
    margin-inline: auto;
    max-width: 1000px;
    text-align: center;
@@ -799,7 +799,7 @@ footer a {
    align-items: center;
    border-radius: 35px;
    padding: 15px;
-   margin: 15px;
+   margin: 25px;
 }
 
 .calendar-body-content-wrapper:nth-of-type(odd) {

@@ -1,4 +1,4 @@
-## ![Logo](./public/favicon.png) Black Sheep Birth Services
+## ![Logo](./favicon.png) Black Sheep Birth Services
 
 **Black Sheep Birth Services** Labor Doula & Childbirth Educator.
 

@@ -805,6 +805,7 @@ footer a {
 .calendar-body-content-wrapper:nth-of-type(odd) {
    background-color: #c2dcd9;
 }
+
 .calendar-body-content-wrapper:nth-of-type(even) {
    background-color: white;
 }

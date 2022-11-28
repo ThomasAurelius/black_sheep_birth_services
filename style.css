@@ -518,15 +518,36 @@ a {
 
 .resources-article {
    display: flex;
-   justify-content: center;
+   justify-content: space-between;
    align-items: center;
    border-radius: 35px;
+   max-width: 1200px;
+   gap: 2rem;
    
+}
+
+.resources-article li a{
+   list-style-type: none;
+   font-size: 1.25rem;
+   font-weight: 500;
+   padding-block: .5rem;
+   margin-block: 1rem;
+   border-radius: 35px;   
 }
 
 .resources-article img {
    max-height: 300px;
    border-radius: 35px;
+   
+}
+
+.resource-diapers-carseats,
+.resource-pregnancy-childbirth {
+   display: flex;  
+   width: 100%;
+   align-items: center;
+   gap: 2rem;
+   justify-content: flex-start;
 }
 
 .resources-medical-professionals,

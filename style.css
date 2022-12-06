@@ -242,6 +242,8 @@ a {
    align-items: center;
    gap: 7rem;
    margin-block: 4rem;
+   
+   
 }
 
 .services-item {
@@ -255,11 +257,13 @@ a {
    border-radius: 35px;
    font-size: 1.5rem;
    width: 100%;
+   max-width: 1200px;
    
 }
 
 .services-item p {
    width: 90vw;
+   max-width: 800px;
 }
 
 .services-btn {

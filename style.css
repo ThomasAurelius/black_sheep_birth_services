@@ -237,17 +237,36 @@ a {
 
 .services-btn-container {
    display: flex;
+   flex-direction: column;
    justify-content: center;
    align-items: center;
    gap: 7rem;
    margin-block: 4rem;
 }
 
-.services-btn {
+.services-item {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 1rem;
    background-color: #c2dcd9;
+   padding: 1rem;
+   border-radius: 35px;
+   font-size: 1.5rem;
+   width: 100%;
+   
+}
+
+.services-item p {
+   width: 90vw;
+}
+
+.services-btn {
+   background-color: #fff6ef;
    border: 1px solid #424143;
    
-   color: #fff6ef;
+   color: #747474;
    padding: 1rem;
    text-align: center;
    text-decoration: none;
